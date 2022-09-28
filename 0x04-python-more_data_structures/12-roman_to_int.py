@@ -10,6 +10,6 @@ def roman_to_int(roman_string):
             'C': 100,
             'D': 500,
             'M': 1000}
-        for a in roman_string:
-            num += _dict.get(a, 0)
+        for c in roman_string:
+            num += _dict.get(c, 0)
     return num
